@@ -13,12 +13,12 @@ def verification(element):
 
     for i in element:  # verifier pour chaque lettres dans l'element
 
-        if i in Lettres_Romaines:  # si il existe dans les lettres romaines (chiffres)
+        if i in Lettres_Romaines:  # si il existe dans les chiffres romains
             pass
         else:
-            return False  # et si il n'exsite pas ben erreur
+            return False
 
-    return True  # et si pas d'erreur détecter ben true
+    return True
 
 
 def sort(elements):
